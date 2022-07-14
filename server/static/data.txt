@@ -1,0 +1,281 @@
+{
+  "name": "Ban hang Laptop sinh vien",
+  "customer_data": [
+    {
+      "name": "Dung",
+      "phone_number": "0945153685",
+      "any": "MAC"
+    },
+     {
+      "name": "Duy",
+      "phone_number": "0943434434",
+      "any": "Dell"
+    },
+     {
+      "name": "Hung",
+      "phone_number": "0965432224",
+      "any": "HP"
+    },
+     {
+      "name": "Lan",
+      "phone_number": "0765433556",
+      "any": "Acer"
+    },
+     {
+      "name": "Giang",
+      "phone_number": "0856743556",
+      "any": "Lenovo"
+    },
+       {
+      "name": "Dung",
+      "phone_number": "0945153685",
+      "any": "MAC"
+    },
+     {
+      "name": "Duy",
+      "phone_number": "0943434434",
+      "any": "Dell"
+    },
+     {
+      "name": "Hung",
+      "phone_number": "0965432224",
+      "any": "HP"
+    },
+     {
+      "name": "Lan",
+      "phone_number": "0765433556",
+      "any": "Acer"
+    },
+     {
+      "name": "Giang",
+      "phone_number": "0856743556",
+      "any": "Lenovo"
+    },
+     {
+      "name": "Duy",
+      "phone_number": "0943434434",
+      "any": "Dell"
+    },
+     {
+      "name": "Hung",
+      "phone_number": "0965432224",
+      "any": "HP"
+    },
+     {
+      "name": "Lan",
+      "phone_number": "0765433556",
+      "any": "Acer"
+    },
+     {
+      "name": "Giang",
+      "phone_number": "0856743556",
+      "any": "Lenovo"
+    },
+       {
+      "name": "Dung",
+      "phone_number": "0945153685",
+      "any": "MAC"
+    },
+     {
+      "name": "Duy",
+      "phone_number": "0943434434",
+      "any": "Dell"
+    },
+     {
+      "name": "Hung",
+      "phone_number": "0965432224",
+      "any": "HP"
+    },
+     {
+      "name": "Lan",
+      "phone_number": "0765433556",
+      "any": "Acer"
+    },
+     {
+      "name": "Giang",
+      "phone_number": "0856743556",
+      "any": "Lenovo"
+    },
+     {
+      "name": "Duy",
+      "phone_number": "0943434434",
+      "any": "Dell"
+    },
+     {
+      "name": "Hung",
+      "phone_number": "0965432224",
+      "any": "HP"
+    },
+     {
+      "name": "Lan",
+      "phone_number": "0765433556",
+      "any": "Acer"
+    },
+     {
+      "name": "Giang",
+      "phone_number": "0856743556",
+      "any": "Lenovo"
+    },
+       {
+      "name": "Dung",
+      "phone_number": "0945153685",
+      "any": "MAC"
+    },
+     {
+      "name": "Duy",
+      "phone_number": "0943434434",
+      "any": "Dell"
+    },
+     {
+      "name": "Hung",
+      "phone_number": "0965432224",
+      "any": "HP"
+    },
+     {
+      "name": "Lan",
+      "phone_number": "0765433556",
+      "any": "Acer"
+    },
+     {
+      "name": "Giang",
+      "phone_number": "0856743556",
+      "any": "Lenovo"
+    },
+     {
+      "name": "Duy",
+      "phone_number": "0943434434",
+      "any": "Dell"
+    },
+     {
+      "name": "Hung",
+      "phone_number": "0965432224",
+      "any": "HP"
+    },
+     {
+      "name": "Lan",
+      "phone_number": "0765433556",
+      "any": "Acer"
+    },
+     {
+      "name": "Giang",
+      "phone_number": "0856743556",
+      "any": "Lenovo"
+    },
+       {
+      "name": "Dung",
+      "phone_number": "0945153685",
+      "any": "MAC"
+    },
+     {
+      "name": "Duy",
+      "phone_number": "0943434434",
+      "any": "Dell"
+    },
+     {
+      "name": "Hung",
+      "phone_number": "0965432224",
+      "any": "HP"
+    },
+     {
+      "name": "Lan",
+      "phone_number": "0765433556",
+      "any": "Acer"
+    },
+     {
+      "name": "Giang",
+      "phone_number": "0856743556",
+      "any": "Lenovo"
+    },
+     {
+      "name": "Duy",
+      "phone_number": "0943434434",
+      "any": "Dell"
+    },
+     {
+      "name": "Hung",
+      "phone_number": "0965432224",
+      "any": "HP"
+    },
+     {
+      "name": "Lan",
+      "phone_number": "0765433556",
+      "any": "Acer"
+    },
+     {
+      "name": "Giang",
+      "phone_number": "0856743556",
+      "any": "Lenovo"
+    },
+       {
+      "name": "Dung",
+      "phone_number": "0945153685",
+      "any": "MAC"
+    },
+     {
+      "name": "Duy",
+      "phone_number": "0943434434",
+      "any": "Dell"
+    },
+     {
+      "name": "Hung",
+      "phone_number": "0965432224",
+      "any": "HP"
+    },
+     {
+      "name": "Lan",
+      "phone_number": "0765433556",
+      "any": "Acer"
+    },
+     {
+      "name": "Giang",
+      "phone_number": "0856743556",
+      "any": "Lenovo"
+    },
+     {
+      "name": "Duy",
+      "phone_number": "0943434434",
+      "any": "Dell"
+    },
+     {
+      "name": "Hung",
+      "phone_number": "0965432224",
+      "any": "HP"
+    },
+     {
+      "name": "Lan",
+      "phone_number": "0765433556",
+      "any": "Acer"
+    },
+     {
+      "name": "Giang",
+      "phone_number": "0856743556",
+      "any": "Lenovo"
+    },
+       {
+      "name": "Dung",
+      "phone_number": "0945153685",
+      "any": "MAC"
+    },
+     {
+      "name": "Duy",
+      "phone_number": "0943434434",
+      "any": "Dell"
+    },
+     {
+      "name": "Hung",
+      "phone_number": "0965432224",
+      "any": "HP"
+    },
+     {
+      "name": "Lan",
+      "phone_number": "0765433556",
+      "any": "Acer"
+    },
+     {
+      "name": "Giang",
+      "phone_number": "0856743556",
+      "any": "Lenovo"
+    }
+  ]
+}
+
