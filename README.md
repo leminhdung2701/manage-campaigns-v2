@@ -11,7 +11,7 @@
 [4. Cách sử dụng project](#4)
 
 ============================================
-<a name="1"></a>
+
 ### 1. Tổng quan  
 * Design a program (a group of services) that provides following functionalities:
 
