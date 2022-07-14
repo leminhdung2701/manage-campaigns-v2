@@ -68,36 +68,12 @@
 ### 4. Cách sử dụng project
 * Clone git
     ```
-   gh repo clone leminhdung2701/Manage-campaigns
+   gh repo clone leminhdung2701/manage-campaigns-v2
    ```
-* Build Image từ Dockerfile
+* Build Docker
     ```
-   docker build -t test .
+   docker-compose up
    ```
-* Khởi tạo một container
-    ```
-   docker run -p 8000:8000 test
-   ```
-
-* Test API
-    ```
-   http://0.0.0.0:5050/docs
-   ```
-
-
-* Chạy celery
-    ```
-   python3 -m celery -A tasks worker --pool=prefork --concurrency={count} --loglevel=info
-   ```
-   Với "count" số lượng prefork.
-
-* Chạy Redis 
-    ```
-   redis-server 
-   redis-cli
-   ```
-
-
 
 * Chạy demo  
     ```
@@ -107,6 +83,16 @@
 * Chạy unit tests 
     ```
    python3 -m pytest -q -v tests/test_api.py  
+   ```
+
+* Test API
+    ```
+   http://0.0.0.0:8000/docs
+   ```
+
+* Flower
+    ```
+   http://0.0.0.0:5556/
    ```
   
   
