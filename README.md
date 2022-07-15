@@ -32,6 +32,7 @@
 * `Python 3.8`
 * `FastAPI 0.70.1`
 * `unicorn 0.15.0`
+* `gunicorn`
 * `Celery`
 * `Redis`
 * `Flower`
