@@ -1,6 +1,5 @@
-from celery_worker import calling
+from celery_worker import calling,sync_task
 from server.api.scheduler.process_db import check_status_customer,get_customers, update_status_customer
-import time
 
 def run():
         print("I'm checking the database for campaigns to run.")
@@ -23,7 +22,7 @@ def run():
                         phone = customer["phone"]
                         print("................................................................")
                         print("ID: "+str(id_customer)+" - Calling "+ str(phone)+ " customer " + str(name_customer) + " in " + str(name_campaign)+" with id = "+str(id_campaign))
-                        calling.delay(id_campaign,name_campaign,name_customer,phone)
+                        sync_task.delay(id_campaign,name_campaign,name_customer,phone)
                         update_status_customer(str(customer["_id"]))
             else:
                 print("----------------------------------------------------------------")
