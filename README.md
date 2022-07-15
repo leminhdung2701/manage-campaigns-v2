@@ -31,11 +31,11 @@
 ### 2. Yêu cầu về môi trường để sử dụng project
 * `Python 3.8`
 * `FastAPI 0.70.1`
-* `Unicorn 0.15.0`
-* `Gunicorn`
-* `Celery`
-* `Redis`
-* `Flower`
+* `Uvicorn 0.15.0`
+* `Gunicorn 20.1.0`
+* `Celery 5.2.7 `
+* `Redis 4.3.4`
+* `Flower 1.1.0`
 
 <a name="3"></a>
 
