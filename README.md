@@ -17,7 +17,21 @@
 
     * Manage campaigns (creating, updating, starting, stopping, duplicating, disabling)
 
-    * A campaign is described as a json with fields.
+    * A campaign is described as a json with fields below:
+      ``` json
+         {
+            "id": "uuid"
+            "name": "string"
+            "customer_data": [
+               {
+                     "name": "string",
+                     "phone_number": "string",
+                     "any": "string",
+               }
+            ]
+            
+         }
+      ```
 
 * Ngôn ngữ chính `Python` và framework `FastAPI` 
 * Sử dụng Mongo Database Atlas
