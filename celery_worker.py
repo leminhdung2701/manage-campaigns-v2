@@ -2,7 +2,6 @@ from celery import Celery
 import asyncio, time
 from asgiref.sync import async_to_sync
 
-
 celery = Celery('tasks',broker='redis://redis:6379/0',backend='redis://redis:6379/0')
 
 async def calling(id_campaign,name_campaign,name_customer,phone):

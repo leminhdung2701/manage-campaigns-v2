@@ -29,19 +29,4 @@ def run():
                 print("Wait tasks...")
                 count = 0
                 
-
-# import redis
-# import json
-
-# redis = redis.Redis(
-#     host= 'localhost',
-#     port= '6379')
-# key ="celery-task-meta-c1b8d6bb-f330-49ea-9577-f9d347ebf953"
-# value = redis.get(key)
-
-# value = json.loads(value.decode('utf-8'))
-# print(type(value))
-# print(value["result"])
-
-
        

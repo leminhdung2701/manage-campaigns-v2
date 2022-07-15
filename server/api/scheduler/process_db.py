@@ -4,8 +4,6 @@ from server.api.database.models.status_campaign import StatusCampaign
 from server.api.schema.status_campaign import serializer_status_campaign
 from bson import ObjectId
 
-
-
 def update_true_status_campaign(id):
     status_campaign = StatusCampaign(id_campaign=id,status=True,active=True)
     if len(list(collection_status_campaign.find({"id_campaign":id}))) == 0: 
@@ -68,13 +66,11 @@ def insert_customer(id):
                 "status":True
             }
             collection_customers.insert_one(cont)
-            
-    
+             
 def get_campaign(id):
     a = list(collection_campaign.find({"_id":ObjectId(id)}))
     if len(a) > 0: return a
     else: return []
-    
     
 def check_status_customer(id_customer):
     list_customers = list(collection_customers.find({"_id":ObjectId(id_customer)}))
@@ -83,7 +79,6 @@ def check_status_customer(id_customer):
     list_status_campaign = list(collection_status_campaign.find({"id_campaign":id_campaign}))
     active_campaign = list_status_campaign[0]["active"]
     status_campaign = list_status_campaign[0]["status"]
-    # print(active_campaign,status_campaign,status_customer)
     if active_campaign and status_campaign and status_customer: 
         return True
     else: 

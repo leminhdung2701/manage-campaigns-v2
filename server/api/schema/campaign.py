@@ -6,7 +6,5 @@ def serializer_campaign(campaign) -> dict:
         "customer_data": campaign["customer_data"]
     }
 
-
-
 def serializer_campaigns(campaigns) -> list:
     return [serializer_campaign(campaign) for campaign in campaigns]

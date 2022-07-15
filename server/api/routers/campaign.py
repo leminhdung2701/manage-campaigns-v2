@@ -8,8 +8,6 @@ from server.api.scheduler.process_db import update_true_status_campaign,update_f
 
 router_campaign = APIRouter() 
 
-
-
 @router_campaign.post('/campaign/create/')
 async def create_campaign(campaign: Campaign):
     _id = collection_campaign.insert_one(jsonable_encoder(campaign))
@@ -40,7 +38,6 @@ async def stop_campaign(id: str):
 async def disable_campaign(id: str):
     return update_false_disable_campaign(id)
    
-
 @router_campaign.put('/campaign/{id}/duplicate/')        
 async def duplicate_campaign(id):
     list_campaign = list(collection_campaign.find({"_id":ObjectId(id)}))

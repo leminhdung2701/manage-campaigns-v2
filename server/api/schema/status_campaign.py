@@ -6,7 +6,5 @@ def serializer_status_campaign(campaign) -> dict:
         "active": campaign["active"],
     }
 
-
-
 def serializer_status_campaigns(campaigns) -> list:
     return [serializer_status_campaign(campaign) for campaign in campaigns]
