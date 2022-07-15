@@ -1,10 +1,7 @@
 from celery import Celery
 import asyncio
 
-celery = Celery('tasks',broker='redis://localhost:6379/0',backend='redis://localhost:6379/0')
-
-# celery = Celery('tasks',broker='redis://default:redispw@localhost:55000',backend='redis://default:redispw@localhost:55000')
-
+celery = Celery('tasks',broker='redis://redis:6379/0',backend='redis://redis:6379/0')
 
 @celery.task
 def calling(id_campaign,name_campaign,name_customer,phone):
