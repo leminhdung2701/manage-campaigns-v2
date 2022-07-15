@@ -72,7 +72,7 @@
    ```
 * Build Docker
     ```
-   docker-compose up
+   docker-compose up --build
    ```
 
 * Chạy demo  
