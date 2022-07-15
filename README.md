@@ -31,8 +31,8 @@
 ### 2. Yêu cầu về môi trường để sử dụng project
 * `Python 3.8`
 * `FastAPI 0.70.1`
-* `unicorn 0.15.0`
-* `gunicorn`
+* `Unicorn 0.15.0`
+* `Gunicorn`
 * `Celery`
 * `Redis`
 * `Flower`
