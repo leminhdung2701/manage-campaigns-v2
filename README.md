@@ -10,7 +10,7 @@
 
 [4. Cách sử dụng project](#4)
 
-============================================
+===================================================
 <a name="1"></a>
 ### 1. Tổng quan  
 * Design a program (a group of services) that provides following functionalities:
@@ -42,28 +42,28 @@
 ### 3. Tóm tắt
 
 * Tạo một campaign với nội dung truyền vào
- ```
+    ```
    POST /campaign/create/ 
    ```
 * Cập nhật một campaign với nội dung truyền vào
- ```
+    ```
    PUT /campaign/{id_campaign}/update
    ```
-* Bắt đầu khởi động một campaign
- ```
-    PUT /campaign/{id_campaign}/start
+* Bắt đầu khởi động một campaign hoặc tiếp tục chạy campaign 
+    ```
+   PUT /campaign/{id_campaign}/start
    ```
 * Dừng một campaign đã khởi động 
- ```
-    PUT /campaign/{id_campaign}/stop
+    ```
+   PUT /campaign/{id_campaign}/stop
    ```
 * Vô hiệu hoá một campaign đã khởi động nhưng không xoá bỏ campaign
- ```
-    PUT /campaign/{id_campaign}/disable
+    ```
+   PUT /campaign/{id_campaign}/disable
    ```
 * Nhân đôi một campaign có sẵn
- ```
-    PUT /campaign/{id_campaign}/duplicate
+    ```
+   PUT /campaign/{id_campaign}/duplicate
    ```
 <a name="4"></a>
 ### 4. Cách sử dụng project
